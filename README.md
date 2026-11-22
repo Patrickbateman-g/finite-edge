@@ -1,8 +1,19 @@
-# Finite Edge — Strategy Capacity Lab
+<a href="https://patrickbateman-g.github.io/finite-edge/">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/finite-edge-preview.png">
+    <img src="assets/finite-edge-preview.gif" alt="Finite Edge. Animated hypothetical capacity model: increasing capital reduces annual net return, crosses the participation limit, and eventually exhausts the assumed edge. Open the interactive simulator." width="960">
+  </picture>
+</a>
 
-**When does a trading edge stop scaling?** An interactive research project connecting a transparent execution-cost model to a reproducible, chronological machine-learning experiment.
+**[OPEN THE SIMULATOR ↗](https://patrickbateman-g.github.io/finite-edge/)** &nbsp; · &nbsp; [Research notebook](capacity_research.ipynb) &nbsp; · &nbsp; [Results](dist/research.json)
 
-[Interactive research](https://patrickbateman-g.github.io/finite-edge/) · [Research notebook](capacity_research.ipynb) · [Machine-readable results](dist/research.json)
+<sub>Animated model preview · click the graphic to change the assumptions.</sub>
+
+---
+
+# When does a trading edge stop scaling?
+
+Finite Edge connects an interactive execution-cost model to a reproducible, chronological machine-learning experiment.
 
 The included ridge model does **not** demonstrate a profitable edge. The contribution is an auditable path from observations to predictions, costs, uncertainty and a capital-allocation decision. A convincing interface cannot turn a failed forecast into alpha.
 
